@@ -29,7 +29,7 @@ end
 def kesha_maker(array)
   kesha = array
   kesha.map {|string|
-    string[2]="$"
+    string[2,2]="$"
   }
   #return kesha
 end

@@ -32,5 +32,3 @@ def kesha_maker(array)
     kesha << string[2]="$"
   }
 end
-
-

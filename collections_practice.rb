@@ -54,7 +54,9 @@ end
 
 def add_s(array)
   array.each_with_index.collect{|string,index|
-    if index !=1
+    if index == 2
+      string
+    else
       string += "s"
     end
       }

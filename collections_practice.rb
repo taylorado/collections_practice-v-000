@@ -24,3 +24,10 @@ def reverse_array(array)
   array_reverse = array.reverse
   return array_reverse
 end
+
+
+def kesha_maker(array)
+  kesha = []
+  array.each {|string|
+    kesha << string[2]="$"
+  }

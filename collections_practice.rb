@@ -31,3 +31,6 @@ def kesha_maker(array)
   array.each {|string|
     kesha << string[2]="$"
   }
+end
+
+

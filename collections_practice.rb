@@ -33,3 +33,13 @@ def kesha_maker(array)
   }
   #return kesha
 end
+
+def find_a(array)
+  a_array = []
+  array.each do |string|
+    if string[0] == "a"
+      a_array << string
+    end
+  end
+  return a_array
+end

@@ -16,6 +16,3 @@ def sort_array_char_count(array)
   sorted = array.sort_by {|x| x.length}
   return array
 end
-
-
-  

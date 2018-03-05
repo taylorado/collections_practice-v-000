@@ -29,7 +29,7 @@ end
 def kesha_maker(array)
   kesha = []
   array.each {|string|
-    kesha << string.insert(2,"$")
+    kesha << string[2,"$"]
   }
   return kesha
 end
